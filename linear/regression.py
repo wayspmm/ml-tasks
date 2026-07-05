@@ -1,6 +1,6 @@
 import numpy as np 
-from .interfaces import LossFunction, LossFunctionClosedFormMixin, LinearRegressionInterface, AbstractOptimizer
-from .optimizers import AnalyticSolutionOptimizer
+from interfaces import LossFunction, LossFunctionClosedFormMixin, LinearRegressionInterface, AbstractOptimizer
+from descents import AnalyticSolutionOptimizer
 from typing import Dict, Type, Optional, Callable
 from abc import abstractmethod, ABC
 
