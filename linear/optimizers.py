@@ -1,6 +1,6 @@
 import numpy as np
 from abc import ABC, abstractmethod
-from .interfaces import LearningRateSchedule, AbstractOptimizer, LinearRegressionInterface
+from interfaces import LearningRateSchedule, AbstractOptimizer, LinearRegressionInterface
 
 class ConstantLR(LearningRateSchedule):
     def __init__(self, lr: float):
